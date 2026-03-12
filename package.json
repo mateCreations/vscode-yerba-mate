@@ -2,7 +2,7 @@
   "name": "mate-theme",
   "displayName": "Mate Theme",
   "description": "Yerba Mate based color theme 🧉",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "author": {
     "name": "Nicholas Velten",
     "email": "nicholasfvelten@gmail.com"
@@ -22,24 +22,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark Mate",
-        "uiTheme": "hc-black",
-        "path": "./themes/Dark-Mate.json"
+        "label": "Yerba Mate",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yerba-mate.json"
       },
       {
-        "label": "Green Mate",
-        "uiTheme": "hc-black",
-        "path": "./themes/Green-Mate.json"
-      },
-      {
-        "label": "Mate",
-        "uiTheme": "hc-black",
-        "path": "./themes/Mate.json"
-      },
-      {
-        "label": "Tereré",
+        "label": "Tererê",
         "uiTheme": "vs",
-        "path": "./themes/Terere.json"
+        "path": "./themes/terere.json"
       }
     ]
   }
